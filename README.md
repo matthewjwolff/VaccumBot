@@ -12,7 +12,7 @@ Output is formatted as (note when reading as plain text HTML tags will be visibl
 
 <pre><code>Test Description<br>
 Generated Environment<br>
-Choices (n=100)<br>
+Precept and Choice (100 lines)<br>
 Final Score<br>
 </code></pre>
 
