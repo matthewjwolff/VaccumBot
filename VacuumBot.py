@@ -61,14 +61,14 @@ class Agent(Thing):
 #         """Wrap the agent's program to print its input and output. This will let
 #         you see what the agent is doing in the environment."""
 #         old_program = agent.program
-# 
+#
 #     def new_program(percept):
 #         action = old_program(percept)
 #         print('{} perceives {} and does {}'.format(agent, percept, action))
 #         return action
 #         agent.program = new_program
 #         return agent
-# 
+#
 #     # ______________________________________________________________________________
 
 
@@ -119,7 +119,7 @@ def rule_match(state, rules):
         if rule.matches(state):
             return rule
 
-loc_A, loc_B, loc_C = (0, 0), (1, 0), (2, 0)  # The two locations for the Vacuum world
+loc_A, loc_B, loc_C = (0, 0), (1, 0), (2, 0)  # The NOW THREE locations for the Vacuum world
 
 
 def RandomVacuumAgent():
@@ -196,11 +196,11 @@ def PowerReflexVacuumAgent():
         elif location==loc_C and (status[loc_B] == 'Dirty' or status[loc_A] == 'Dirty') :
             print(percept, 'Left')
             return 'Left'
-        
+
     return Agent(program)
 
 
-def BlindDumbVacuumAgent(): 
+def BlindDumbVacuumAgent():
     #no randomizer
     def program(percept):
         # Percept now contains more information
@@ -445,7 +445,7 @@ class PowerfulTrivialVacuumEnvironment(TrivialVacuumEnvironment):
 
 class BlindVacuumEnvironment(TrivialVacuumEnvironment):
     # Extension of the TrivialVacuumEnvironment where the robot does not know its own location
-    
+
     def percept(self, agent):
         return(self.status[agent.location])
 
@@ -459,20 +459,20 @@ class BlindVacuumEnvironment(TrivialVacuumEnvironment):
 #             d = d + "right" or d = d + Direction.R #Both do the same thing
 #             Note that the argument to __add__ must be a string and not a Direction object.
 #             Also, it (the argument) can only be right or left. '''
-# 
+#
 #     R = "right"
 #     L = "left"
-# 
+#
 #     def __init__(self, direction):
 #         self.direction = direction
-# 
+#
 #     def move_forward(self, from_location):
 #         x, y = from_location
 #         if self.direction == self.R:
 #             return (x+1, y)
 #         elif self.direction == self.L:
 #             return (x-1, y)
-# 
+#
 # def compare_agents(EnvFactory, AgentFactories, n=4, steps=100):
 #     """See how well each of several agents do in n instances of an environment.
 #     Pass in a factory (constructor) for environments, and several for agents.
@@ -481,8 +481,8 @@ class BlindVacuumEnvironment(TrivialVacuumEnvironment):
 #     envs = [EnvFactory() for i in range(n)]
 #     return [(A, test_agent(A, steps, copy.deepcopy(envs)))
 #             for A in AgentFactories]
-# 
-# 
+#
+#
 # def test_agent(AgentFactory, steps, envs):
 #     "Return the mean score of running an agent in each of the envs, for steps"
 #     def score(env):
