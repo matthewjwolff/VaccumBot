@@ -10,8 +10,11 @@ The program is a simple Python script. Run it with `python VacuumBot.py`. You mu
 ## Output
 Output is formatted as: ```
 Test Description
+
 Generated Environment
+
 Choices (n=100)
+
 Final Score```
 
 Four rounds are run for each type of problem. Experiments were run for questions 1a, 1b, 1c, 3a, and 3b.
