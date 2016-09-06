@@ -57,7 +57,6 @@ class Agent(Thing):
         Override for appropriate subclasses of Agent and Thing."""
         return False
 
-    # TODO: Learn how this works
 #     def TraceAgent(agent):
 #         """Wrap the agent's program to print its input and output. This will let
 #         you see what the agent is doing in the environment."""
@@ -507,7 +506,6 @@ print("The Simple Reflex Agent Tests:")
 run_times(TrivialVacuumEnvironment, ReflexVacuumAgent, 100, 4)
 
 """Case 1(b) - The Reflex Agent"""
-"""TODO ADD PRINT STATEMENTS"""
 print("The Reflex Agent Tests:")
 run_times(TrivialVacuumEnvironment, ModelBasedVacuumAgent, 100, 4)
 
