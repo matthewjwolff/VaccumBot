@@ -1,0 +1,2065 @@
+The Simple Reflex Agent Tests:
+The environment for this attempt is:
+{(2, 0): 'Clean', (1, 0): 'Dirty', (0, 0): 'Clean'}
+((1, 0), 'Dirty') Suck
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Right
+-89
+The environment for this attempt is:
+{(2, 0): 'Clean', (1, 0): 'Dirty', (0, 0): 'Dirty'}
+((2, 0), 'Clean') Left
+((1, 0), 'Dirty') Suck
+((1, 0), 'Clean') Left
+((0, 0), 'Dirty') Suck
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+-78
+The environment for this attempt is:
+{(2, 0): 'Dirty', (1, 0): 'Dirty', (0, 0): 'Clean'}
+((2, 0), 'Dirty') Suck
+((2, 0), 'Clean') Left
+((1, 0), 'Dirty') Suck
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Right
+-78
+The environment for this attempt is:
+{(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Dirty'}
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Dirty') Suck
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+-89
+The Reflex Agent Tests:
+The environment for this attempt is:
+{(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Dirty'}
+((1, 0), 'Clean') Left
+((0, 0), 'Dirty') Suck
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+7
+The environment for this attempt is:
+{(2, 0): 'Dirty', (1, 0): 'Clean', (0, 0): 'Dirty'}
+((2, 0), 'Dirty') Suck
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Dirty') Suck
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+18
+The environment for this attempt is:
+{(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Dirty'}
+((0, 0), 'Dirty') Suck
+((0, 0), 'Clean') Right
+((1, 0), 'Clean') Right
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+((2, 0), 'Clean') NoOp
+8
+The environment for this attempt is:
+{(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}
+((2, 0), 'Clean') Left
+((1, 0), 'Clean') Left
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+((0, 0), 'Clean') NoOp
+-2
+Superpowered dirt sensor Agent
+The environment for this attempt is:
+{(2, 0): 'Clean', (1, 0): 'Dirty', (0, 0): 'Dirty'}
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Dirty', (0, 0): 'Dirty'}) Left
+((1, 0), {(2, 0): 'Clean', (1, 0): 'Dirty', (0, 0): 'Dirty'}) Suck
+((1, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Dirty'}) Left
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Dirty'}) Suck
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+18
+The environment for this attempt is:
+{(2, 0): 'Dirty', (1, 0): 'Dirty', (0, 0): 'Dirty'}
+((1, 0), {(2, 0): 'Dirty', (1, 0): 'Dirty', (0, 0): 'Dirty'}) Suck
+((1, 0), {(2, 0): 'Dirty', (1, 0): 'Clean', (0, 0): 'Dirty'}) Left
+((0, 0), {(2, 0): 'Dirty', (1, 0): 'Clean', (0, 0): 'Dirty'}) Suck
+((0, 0), {(2, 0): 'Dirty', (1, 0): 'Clean', (0, 0): 'Clean'}) Right
+((1, 0), {(2, 0): 'Dirty', (1, 0): 'Clean', (0, 0): 'Clean'}) Right
+((2, 0), {(2, 0): 'Dirty', (1, 0): 'Clean', (0, 0): 'Clean'}) Suck
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+27
+The environment for this attempt is:
+{(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((0, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+0
+The environment for this attempt is:
+{(2, 0): 'Dirty', (1, 0): 'Clean', (0, 0): 'Clean'}
+((2, 0), {(2, 0): 'Dirty', (1, 0): 'Clean', (0, 0): 'Clean'}) Suck
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+((2, 0), {(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}) NoOp
+10
+Blind Dumb Agent (cannot see where it is, no randomization)
+The environment for this attempt is:
+{(2, 0): 'Clean', (1, 0): 'Dirty', (0, 0): 'Clean'}
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+-100
+The environment for this attempt is:
+{(2, 0): 'Dirty', (1, 0): 'Dirty', (0, 0): 'Dirty'}
+Dirty Suck
+Clean Right
+Dirty Suck
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+-78
+The environment for this attempt is:
+{(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+-100
+The environment for this attempt is:
+{(2, 0): 'Clean', (1, 0): 'Dirty', (0, 0): 'Clean'}
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+-100
+Blind Agent (cannot see where it is, with a randomizer)
+The environment for this attempt is:
+{(2, 0): 'Clean', (1, 0): 'Clean', (0, 0): 'Clean'}
+Clean Right
+Clean Right
+Clean Right
+Clean Left
+Clean Left
+Clean Left
+Clean Left
+Clean Right
+Clean Left
+Clean Right
+Clean Right
+Clean Left
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Left
+Clean Left
+Clean Left
+Clean Right
+Clean Left
+Clean Left
+Clean Left
+Clean Right
+Clean Left
+Clean Left
+Clean Left
+Clean Right
+Clean Left
+Clean Left
+Clean Right
+Clean Right
+Clean Right
+Clean Left
+Clean Right
+Clean Right
+Clean Left
+Clean Left
+Clean Left
+Clean Left
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Left
+Clean Right
+Clean Left
+Clean Right
+Clean Left
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Left
+Clean Right
+Clean Left
+Clean Right
+Clean Left
+Clean Right
+Clean Right
+Clean Right
+Clean Left
+Clean Left
+Clean Right
+Clean Right
+Clean Right
+Clean Left
+Clean Right
+Clean Right
+Clean Right
+Clean Left
+Clean Right
+Clean Right
+Clean Left
+Clean Left
+Clean Left
+Clean Right
+Clean Right
+Clean Right
+Clean Left
+Clean Right
+Clean Left
+Clean Left
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Left
+Clean Left
+Clean Right
+Clean Left
+Clean Right
+Clean Right
+Clean Left
+Clean Left
+-100
+The environment for this attempt is:
+{(2, 0): 'Dirty', (1, 0): 'Clean', (0, 0): 'Dirty'}
+Clean Right
+Dirty Suck
+Clean Right
+Clean Left
+Clean Left
+Dirty Suck
+Clean Left
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Left
+Clean Left
+Clean Left
+Clean Right
+Clean Right
+Clean Left
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Left
+Clean Left
+Clean Right
+Clean Right
+Clean Left
+Clean Right
+Clean Left
+Clean Right
+Clean Left
+Clean Left
+Clean Right
+Clean Left
+Clean Left
+Clean Right
+Clean Right
+Clean Left
+Clean Left
+Clean Right
+Clean Left
+Clean Left
+Clean Left
+Clean Left
+Clean Left
+Clean Left
+Clean Left
+Clean Left
+Clean Right
+Clean Right
+Clean Left
+Clean Right
+Clean Right
+Clean Left
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Left
+Clean Left
+Clean Right
+Clean Left
+Clean Left
+Clean Left
+Clean Right
+Clean Left
+Clean Right
+Clean Left
+Clean Left
+Clean Right
+Clean Right
+Clean Left
+Clean Left
+Clean Right
+Clean Left
+Clean Right
+Clean Right
+Clean Right
+Clean Left
+Clean Right
+Clean Right
+Clean Left
+Clean Right
+Clean Left
+Clean Left
+Clean Left
+Clean Left
+Clean Right
+Clean Left
+Clean Right
+Clean Right
+Clean Right
+Clean Left
+Clean Left
+Clean Right
+Clean Right
+Clean Right
+-78
+The environment for this attempt is:
+{(2, 0): 'Clean', (1, 0): 'Dirty', (0, 0): 'Dirty'}
+Clean Left
+Dirty Suck
+Clean Right
+Clean Right
+Clean Left
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Left
+Clean Right
+Clean Left
+Clean Left
+Dirty Suck
+Clean Right
+Clean Left
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Left
+Clean Left
+Clean Right
+Clean Right
+Clean Left
+Clean Right
+Clean Left
+Clean Left
+Clean Right
+Clean Right
+Clean Right
+Clean Left
+Clean Left
+Clean Right
+Clean Right
+Clean Right
+Clean Left
+Clean Left
+Clean Right
+Clean Left
+Clean Left
+Clean Right
+Clean Left
+Clean Left
+Clean Right
+Clean Left
+Clean Right
+Clean Left
+Clean Left
+Clean Left
+Clean Right
+Clean Left
+Clean Right
+Clean Left
+Clean Right
+Clean Left
+Clean Right
+Clean Left
+Clean Left
+Clean Right
+Clean Left
+Clean Left
+Clean Right
+Clean Right
+Clean Right
+Clean Left
+Clean Right
+Clean Right
+Clean Left
+Clean Left
+Clean Right
+Clean Left
+Clean Right
+Clean Left
+Clean Right
+Clean Left
+Clean Left
+Clean Right
+Clean Right
+Clean Left
+Clean Left
+Clean Left
+Clean Left
+Clean Left
+Clean Right
+Clean Right
+Clean Left
+Clean Right
+Clean Right
+Clean Left
+Clean Left
+Clean Left
+Clean Left
+Clean Right
+Clean Right
+Clean Right
+Clean Left
+Clean Right
+Clean Left
+Clean Left
+-78
+The environment for this attempt is:
+{(2, 0): 'Dirty', (1, 0): 'Clean', (0, 0): 'Clean'}
+Clean Right
+Clean Left
+Clean Right
+Clean Left
+Clean Right
+Clean Left
+Clean Left
+Clean Right
+Clean Right
+Dirty Suck
+Clean Right
+Clean Left
+Clean Right
+Clean Left
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Left
+Clean Left
+Clean Left
+Clean Left
+Clean Left
+Clean Right
+Clean Left
+Clean Right
+Clean Left
+Clean Right
+Clean Right
+Clean Left
+Clean Left
+Clean Left
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Left
+Clean Right
+Clean Right
+Clean Left
+Clean Right
+Clean Right
+Clean Left
+Clean Left
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Left
+Clean Left
+Clean Right
+Clean Right
+Clean Right
+Clean Left
+Clean Right
+Clean Left
+Clean Left
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Left
+Clean Right
+Clean Right
+Clean Right
+Clean Right
+Clean Left
+Clean Left
+Clean Right
+Clean Left
+Clean Right
+Clean Left
+Clean Left
+Clean Left
+Clean Left
+Clean Right
+Clean Left
+Clean Right
+Clean Left
+Clean Left
+Clean Left
+Clean Left
+Clean Right
+Clean Left
+Clean Left
+Clean Left
+Clean Left
+Clean Left
+Clean Left
+Clean Right
+Clean Left
+Clean Left
+Clean Left
+Clean Left
+Clean Left
+Clean Left
+-89

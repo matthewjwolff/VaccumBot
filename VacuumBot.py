@@ -201,6 +201,38 @@ def PowerReflexVacuumAgent():
     return Agent(program)
 
 
+def BlindDumbVacuumAgent(): 
+    #no randomizer
+    def program(percept):
+        # Percept now contains more information
+        # ex
+        # location = loc_A
+        # status = { loc_A: Clean, loc_B: Dirty, loc_C: dirty
+        if percept == 'Dirty':
+            print(percept, 'Suck')
+            return 'Suck'
+        else:
+            # We have no randomizer, so we must just move, in the hopes that we get somewhere and clean something...
+            print(percept, 'Right')
+            return 'Right'
+    return Agent(program)
+
+def BlindVacuumAgent():
+    # Now with a randomizer
+    def program(percept):
+        if percept == 'Dirty':
+            print(percept, 'Suck')
+            return 'Suck'
+        else:
+            choice = random.randint(0,1)
+            if choice == 0:
+                print(percept, 'Left')
+                return 'Left'
+            else:
+                print(percept, 'Right')
+                return 'Right'
+    return Agent(program)
+
 def ModelBasedVacuumAgent():
     "An agent that keeps track of what locations are clean or dirty."
     model = {loc_A: None, loc_B: None, loc_C: None}
@@ -412,46 +444,54 @@ class PowerfulTrivialVacuumEnvironment(TrivialVacuumEnvironment):
         "Returns the agent's location, and the location status (Dirty/Clean)."
         return (agent.location, self.status)
 
-class Direction():
-    '''A direction class for agents that want to move in a 2D plane
-        Usage:
-            d = Direction("Down")
-            To change directions:
-            d = d + "right" or d = d + Direction.R #Both do the same thing
-            Note that the argument to __add__ must be a string and not a Direction object.
-            Also, it (the argument) can only be right or left. '''
+class BlindVacuumEnvironment(TrivialVacuumEnvironment):
+    # Extension of the TrivialVacuumEnvironment where the robot does not know its own location
+    
+    def percept(self, agent):
+        return(self.status[agent.location])
 
-    R = "right"
-    L = "left"
+# Unused code, but was used as a model
 
-    def __init__(self, direction):
-        self.direction = direction
-
-    def move_forward(self, from_location):
-        x, y = from_location
-        if self.direction == self.R:
-            return (x+1, y)
-        elif self.direction == self.L:
-            return (x-1, y)
-
-def compare_agents(EnvFactory, AgentFactories, n=4, steps=100):
-    """See how well each of several agents do in n instances of an environment.
-    Pass in a factory (constructor) for environments, and several for agents.
-    Create n instances of the environment, and run each agent in copies of
-    each one for steps. Return a list of (agent, average-score) tuples."""
-    envs = [EnvFactory() for i in range(n)]
-    return [(A, test_agent(A, steps, copy.deepcopy(envs)))
-            for A in AgentFactories]
-
-
-def test_agent(AgentFactory, steps, envs):
-    "Return the mean score of running an agent in each of the envs, for steps"
-    def score(env):
-        agent = AgentFactory()
-        env.add_thing(agent)
-        env.run(steps)
-        return agent.performance
-    return mean(map(score, envs))
+# class Direction():
+#     '''A direction class for agents that want to move in a 2D plane
+#         Usage:
+#             d = Direction("Down")
+#             To change directions:
+#             d = d + "right" or d = d + Direction.R #Both do the same thing
+#             Note that the argument to __add__ must be a string and not a Direction object.
+#             Also, it (the argument) can only be right or left. '''
+# 
+#     R = "right"
+#     L = "left"
+# 
+#     def __init__(self, direction):
+#         self.direction = direction
+# 
+#     def move_forward(self, from_location):
+#         x, y = from_location
+#         if self.direction == self.R:
+#             return (x+1, y)
+#         elif self.direction == self.L:
+#             return (x-1, y)
+# 
+# def compare_agents(EnvFactory, AgentFactories, n=4, steps=100):
+#     """See how well each of several agents do in n instances of an environment.
+#     Pass in a factory (constructor) for environments, and several for agents.
+#     Create n instances of the environment, and run each agent in copies of
+#     each one for steps. Return a list of (agent, average-score) tuples."""
+#     envs = [EnvFactory() for i in range(n)]
+#     return [(A, test_agent(A, steps, copy.deepcopy(envs)))
+#             for A in AgentFactories]
+# 
+# 
+# def test_agent(AgentFactory, steps, envs):
+#     "Return the mean score of running an agent in each of the envs, for steps"
+#     def score(env):
+#         agent = AgentFactory()
+#         env.add_thing(agent)
+#         env.run(steps)
+#         return agent.performance
+#     return mean(map(score, envs))
 
 def run_times(EnvFactory, AgentFactory, steps, runs):
     for i in range(runs):
@@ -473,3 +513,9 @@ run_times(TrivialVacuumEnvironment, ModelBasedVacuumAgent, 100, 4)
 
 print("Superpowered dirt sensor Agent")
 run_times(PowerfulTrivialVacuumEnvironment, PowerReflexVacuumAgent, 100, 4)
+
+print("Blind Dumb Agent (cannot see where it is, no randomization)")
+run_times(BlindVacuumEnvironment, BlindDumbVacuumAgent, 100, 4)
+
+print("Blind Agent (cannot see where it is, with a randomizer)")
+run_times(BlindVacuumEnvironment, BlindVacuumAgent, 100, 4)
