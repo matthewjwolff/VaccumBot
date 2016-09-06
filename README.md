@@ -8,10 +8,9 @@ This program models a vacuuming robot in a 3-celled world. The robot must move a
 The program is a simple Python script. Run it with `python VacuumBot.py`. You must have python version >= 3.4 to run it.
 
 ## Output
-Output is formatted as:
+Output is formatted as (note when reading as plain text HTML tags will be visible):
 
-<pre><code>
-Test Description<br>
+<pre><code>Test Description<br>
 Generated Environment<br>
 Choices (n=100)<br>
 Final Score<br>
