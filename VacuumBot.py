@@ -1,3 +1,5 @@
+# Skeleton code taken from github.com/aimacode/aima-python
+
 from statistics import mean
 
 import random
@@ -147,6 +149,7 @@ def TableDrivenVacuumAgent():
 
 def ReflexVacuumAgent():
     "A simple reflex agent for the three-state vacuum environment. [Figure 2.8]"
+    # Augmented to include the 3-room problem environment
     def program(percept):
         location, status = percept
         if status == 'Dirty':
@@ -168,6 +171,35 @@ def ReflexVacuumAgent():
             return 'Left'
     return Agent(program)
 
+def PowerReflexVacuumAgent():
+    "more powerful sensors"
+    def program(percept):
+        # Percept now contains more information
+        # ex
+        # location = loc_A
+        # status = { loc_A: Clean, loc_B: Dirty, loc_C: dirty
+        location, status = percept
+        if status[loc_A] == status[loc_B] == status[loc_C] == 'Clean' :
+            print(percept, 'NoOp')
+            return 'NoOp'
+        elif status[location] == 'Dirty':
+            print(percept, 'Suck')
+            return 'Suck'
+        elif location==loc_A and (status[loc_B] == 'Dirty' or status[loc_C] == 'Dirty') :
+            print(percept, 'Right')
+            return 'Right'
+        elif location==loc_B and status[loc_A] == 'Dirty':
+            print(percept, 'Left')
+            return 'Left'
+        elif location==loc_B and status[loc_C] == 'Dirty':
+            print(percept, 'Right')
+            return 'Right'
+        elif location==loc_C and (status[loc_B] == 'Dirty' or status[loc_A] == 'Dirty') :
+            print(percept, 'Left')
+            return 'Left'
+        
+    return Agent(program)
+
 
 def ModelBasedVacuumAgent():
     "An agent that keeps track of what locations are clean or dirty."
@@ -175,6 +207,7 @@ def ModelBasedVacuumAgent():
 
     def program(percept):
         "Same as ReflexVacuumAgent, except if everything is clean, do NoOp."
+        # Augmented to include the 3-room format
         location, status = percept
         model[location] = status  # Update the model here
         if model[loc_A] == model[loc_B] == model[loc_C] == 'Clean':
@@ -372,42 +405,12 @@ class TrivialVacuumEnvironment(Environment):
         "Agents start in a location at random."
         return random.choice([loc_A, loc_B, loc_C])
 
-class XYEnvironment(Environment):
-
-    """This class is for environments on a 2D plane, with locations
-    labelled by (x, y) points, either discrete or continuous.
-    Agents perceive things within a radius.  Each agent in the
-    environment has a .location slot which should be a location such
-    as (0, 1), and a .holding slot, which should be a list of things
-    that are held."""
-
-    def __init__(self, width=2, height=0):
-        super(XYEnvironment, self).__init__()
-
-        self.width = width
-        self.height = height
-        self.observers = []
-        # Sets iteration start and end (no walls).
-        self.x_start, self.y_start = (0, 0)
-        self.x_end, self.y_end = (self.width, self.height)
-
-    perceptible_distance = 3
-
-    # TODO: make this work
-#     def things_near(self, location, radius=None):
-#         "Return all things within radius of location."
-#         if radius is None:
-#             radius = self.perceptible_distance
-#         radius2 = radius * radius
-#         return [(thing, radius2 - distance2(location, thing.location)) for thing in self.things
-#                 if distance2(location, thing.location) <= radius2]
+class PowerfulTrivialVacuumEnvironment(TrivialVacuumEnvironment):
+    # Extension of the TrivialVacuumEnvironment to override the percept to give the more powerful robot better sensors
 
     def percept(self, agent):
-        '''By default, agent perceives things within a default radius.'''
-        return self.things_near(agent.location)
-
-    def default_location(self, thing):
-        return (random.choice(self.width), random.choice(self.height))
+        "Returns the agent's location, and the location status (Dirty/Clean)."
+        return (agent.location, self.status)
 
 class Direction():
     '''A direction class for agents that want to move in a 2D plane
@@ -469,4 +472,4 @@ print("The Reflex Agent Tests:")
 run_times(TrivialVacuumEnvironment, ModelBasedVacuumAgent, 100, 4)
 
 print("Superpowered dirt sensor Agent")
-"""TODO NEW ENVIRONMENT"""
+run_times(PowerfulTrivialVacuumEnvironment, PowerReflexVacuumAgent, 100, 4)
